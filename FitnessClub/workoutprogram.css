@@ -1,0 +1,188 @@
+body
+{
+margin:0;
+padding:0;
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+header{
+	position:fixed;
+	left: 0px;
+	top:0px;
+	width: 100%;
+	z-index: 10;
+	background-color:	#000d1a;
+	padding:15px 15px;
+}
+header .container{
+	//display: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.container{
+max-width:1170px;
+margin:auto;
+text-align:justify;
+}
+
+header .logo a{
+	font-size: 35px;
+	text-decoration: none;
+	color:	white;
+	font-weight: 700;
+}
+
+header .logo a span{
+	color:tomato;
+}
+header .head ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+overflow:hidden;
+backgroung-color:#333;
+}
+header .head ul li{
+float:left;
+}
+header .head ul li a{
+	text-decoration: none;
+
+    color:#ffffff;
+    display: block;
+    position: relative;
+    padding:10px 30px;
+}
+li a:hover{
+background-color:tomato;
+}
+.exercise{
+	padding:80px 0px;
+	background-color:tomato;
+}
+
+.exercise .content{ 
+ -webkit-display: flex;
+ display: flex;
+}
+.exercise .content .box{
+	flex:0 0 33.33%;
+	//max-width: 33.33%;
+	padding:15px;
+}
+.exercise .content .box .inner{
+	background-color:#000d1a;
+}
+.exercise .content .box:nth-child(2) .inner{
+	background-color: #c11325;
+}
+.exercise .content .box .inner .img img{
+	width: 100%;
+}
+.exercise .content .box .inner .text{
+	padding:30px;
+
+}
+
+.exercise .content .box .inner .text h4{
+  font-size: 20px;
+  margin:0;
+  padding: 0px 0px 15px;
+  font-weight: 500;
+  color:#ffffff;
+ text-transform: capitalize;
+  text-align: center;
+}
+.exercise .content .box .inner .text p{
+	font-size: 15px;
+	line-height:20px;
+	color:#ffffff;
+	text-align:justify;
+	margin:0;
+	font-family:"Roboto",sans-serif;
+}
+
+.features{
+padding:70px;
+background-color:tomato;
+font-size:20px;
+color:#000d1a;
+font-family:"Roboto",sans-serif;
+}
+
+
+.quote {
+  box-sizing: border-box;
+text-align:center;
+background-color:tomato;
+font-size:30px;
+padding:20px 0 20px 0;
+
+}
+
+
+
+
+.logo a{
+	font-size: 35px;
+	text-decoration: none;
+	color:	white;
+	font-weight: 700;
+        float:left;
+        
+}
+
+.logo a span{
+	color:tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+//position:fixed;
+  text-align: center;
+text-decoration:underline dotted;
+  padding: 10px;
+  background-color:#000d1a;
+  color:tomato;
+height:350x/;
+}
+
+
+.box1 {
+  float: left;
+  width: 300px;
+ padding: 60px 20px 30px 20px;
+margin:20px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul{
+list-style-type:none;
+text-transform:uppercase;
+
+}

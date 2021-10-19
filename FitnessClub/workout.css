@@ -1,0 +1,200 @@
+body
+{
+margin:0;
+padding:0;
+background-color:tomato;
+
+
+}
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+header{
+	position:fixed;
+	left: 0px;
+	top:0px;
+	width: 100%;
+	z-index: 10;
+	background-color:#000d1a;
+	padding:15px 15px;
+}
+header .container{
+	//display: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.container{
+max-width:1170px;
+margin:auto;
+text-align:justify;
+}
+
+header .logo a{
+	font-size: 35px;
+	text-decoration: none;
+	color:	white;
+	font-weight: 700;
+}
+
+header .logo a span{
+	color:tomato;
+}
+
+
+header .head ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+overflow:hidden;
+backgroung-color:#333;
+}
+header .head ul li{
+float:left;
+}
+header .head ul li a{
+	text-decoration: none;
+
+    color:#ffffff;
+    display: block;
+    position: relative;
+    padding:10px 30px;
+}
+li a:hover{
+background-color:tomato;
+}
+
+
+
+.quote{
+padding:5px;  
+margin:90px 40px 50px;
+box-sizing: border-box;
+text-align:center;
+background-color:tomato;
+font-family:Forte;
+font-size:20px;
+color:white;
+}
+
+*{
+  box-sizing: border-box;
+}
+.column{
+float:left;
+//padding-top:20px;
+padding-right:20px;
+padding-bottom:5px;
+padding-left:15px;
+}
+.row::after{
+content: "";
+clear:both;
+display:table;
+padding:2px;
+}
+
+.column:hover{
+}
+
+.column .sample{
+width:300px;
+height:400px;
+}
+
+
+footer {
+  text-align: center;
+text-decoration:underline dotted;
+  padding: 10px;
+  background-color:#000d1a;
+  color:tomato;
+height:350px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul{
+list-style-type:none;
+text-transform:uppercase;
+
+}
+
+
+
+
+.logo a{
+	font-size: 35px;
+	text-decoration: none;
+	color:	white;
+	font-weight: 700;
+        float:left;
+        
+}
+
+.logo a span{
+	color:tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+//position:fixed;
+  text-align: center;
+text-decoration:underline dotted;
+  padding: 10px;
+  background-color:#000d1a;
+  color:tomato;
+height:350px;
+}
+
+
+.box {
+  float: left;
+  width: 300px;
+ padding: 60px 20px 30px 20px;
+margin:20px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul{
+list-style-type:none;
+text-transform:uppercase;
+
+}
